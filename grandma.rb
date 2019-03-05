@@ -16,8 +16,7 @@ require 'pry'
 def speak_to_grandma(phrase)
   if phrase = phrase.downcase
     "HUH?! SPEAK UP, SONNY!"
-  end 
-  if phrase = phrase.upcase
+  elsif phrase = phrase.upcase
     "NO, NOT SINCE 1938!"
   else phrase == "I LOVE YOU GRANDMA!"
     "I LOVE YOU TOO PUMPKIN!"
