@@ -16,7 +16,6 @@ require 'pry'
 def speak_to_grandma(phrase)
   if phrase = phrase.downcase
     "HUH?! SPEAK UP, SONNY!"
-    binding.pry
   end 
   if phrase = phrase.upcase
     "NO, NOT SINCE 1938!"
